@@ -3,12 +3,13 @@
 
 #include "utils.h"
 
-typedef struct {
+typedef struct
+{
   v3 pos;
   f32 fov, yaw;
 } camera_t;
 
-extern void camera_move(camera_t *, const u8 *);
+extern void camera_move (camera_t *, const u8 *);
 
 #endif // ENGINE_CAMERA_H
 

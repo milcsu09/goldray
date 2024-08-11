@@ -2,6 +2,7 @@
 CC := gcc
 # CCFLAGS := -std=c11 -Wfatal-errors -Wall -Wextra -Os -s
 CCFLAGS := -std=c11 -Wfatal-errors -Wall -Wextra -O3
+CCFLAGS += -flto -fopenmp
 LDFLAGS += -lm -lSDL2
 
 OUTPUT := engine
